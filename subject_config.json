@@ -1,0 +1,43 @@
+{
+  "title": "消防設備師士 歷屆考古題戰術分析與視覺化複習系統",
+  "subtitle": "專門職業及技術人員高等暨普通考試 — 消防設備師／消防設備士歷屆試題深度拆解與弱點雷達",
+  "badge": "高考師級 ✕ 普考士級 雙軌整合版",
+  "icon": "🚒",
+  "defaultTheme": "dark",
+  "bundleFilename": "消防設備師士_終極單一獨立版.html",
+  "cardTitles": {
+    "algorithm": "📐 設備工程決策與計算路徑 (Algorithm & Calculation Path)",
+    "trap": "⚠️ 誘答陷阱與法規盲點拆解 (Confusion Trap & Distractor Alert)",
+    "guideline": "📜 最新消防法規修法檢核 (Guideline & Amendment Check)"
+  },
+  "categories": [
+    { "name": "01_消防法規與專業制度", "icon": "⚖️", "short": "法規與執業" },
+    { "name": "02_火災學與燃燒防護", "icon": "🔥", "short": "火災學理論" },
+    { "name": "03_水系統消防安全設備", "icon": "💧", "short": "水系統設備" },
+    { "name": "04_化學系統滅火設備", "icon": "🧯", "short": "化學滅火設備" },
+    { "name": "05_火警警報與自衛廣播", "icon": "🔔", "short": "警報廣播系統" },
+    { "name": "06_避難逃生與防排煙系統", "icon": "🏃", "short": "避難排煙系統" }
+  ],
+  "cheatSheets": [
+    {
+      "tabTitle": "場所甲乙丙丁類與設備門檻",
+      "htmlContent": "<div class='space-y-4 text-xs sm:text-sm text-slate-200 leading-relaxed'><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-amber-300 mb-2'>📌 甲類場所判定要領 (各類場所消防安全設備設置標準 §12)</h4><ul class='list-disc list-inside space-y-1 text-slate-300'><li><b>甲類 1 目</b>：電影院、歌廳、演藝場、歌舞廳、夜總會、俱樂部、理容院、KTV、MTV、酒家、酒吧、茶室。</li><li><b>甲類 2 目</b>：保齡球館、三溫暖。</li><li><b>甲類 3 目</b>：觀光飯店、飯店、旅館、招待所。</li><li><b>甲類 4 目</b>：商場、市場、百貨商場、超級市場、零售市場、展覽場。</li><li><b>甲類 5 目</b>：餐廳、飲食店、咖啡廳。</li><li><b>甲類 6 目</b>：醫院、療養院、長照機構、幼兒園、托嬰中心、身心障礙福利機構。</li></ul></div><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-cyan-300 mb-2'>💧 滅火設備設置門檻速記</h4><div class='overflow-x-auto'><table class='w-full border-collapse text-left'><thead><tr class='border-b border-slate-700 text-slate-400'><th>設備種類</th><th>一般場所門檻</th><th>地下層/無開口樓層門檻</th><th>特別規定</th></tr></thead><tbody class='divide-y divide-slate-800 text-slate-300'><tr><td class='py-1.5 font-bold text-amber-200'>室內消防栓</td><td>甲類 1~5目 ≥ 150㎡；甲6及其他 ≥ 300㎡</td><td>甲類 ≥ 100㎡；其他 ≥ 150㎡</td><td>高層建築物各樓層一律設置</td></tr><tr><td class='py-1.5 font-bold text-cyan-200'>自動撒水設備</td><td>10層以下：甲類特種規模或商場≥1000㎡；11層以上各樓層</td><td>甲類 ≥ 1000㎡；地下無開口 ≥ 1000㎡</td><td>長照機構、老人福利機構各樓層一律設置</td></tr><tr><td class='py-1.5 font-bold text-emerald-200'>火警自動警報</td><td>甲類 ≥ 100㎡；一般場所 ≥ 300~500㎡</td><td>各類場所 ≥ 100㎡ (甲類不論面積)</td><td>高層建築物、地下建築物各樓層一律設置</td></tr></tbody></table></div></div></div>"
+    },
+    {
+      "tabTitle": "四大水系統加壓計算公式",
+      "htmlContent": "<div class='space-y-4 text-xs sm:text-sm text-slate-200 leading-relaxed'><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-cyan-300 mb-2'>📐 水力計算核心四大天王公式</h4><div class='grid grid-cols-1 md:grid-cols-2 gap-3'><div class='p-2.5 rounded-lg bg-slate-950/80 border border-slate-800'><span class='text-amber-300 font-bold'>1. 撒水頭放水流量公式</span><p class='font-mono text-emerald-300 text-base my-1'>Q = K × √(10P)</p><p class='text-slate-400 text-xs'>Q: 流量 (L/min)<br>K: 流量係數 (標準頭常為 80)<br>P: 放水壓力 (MPa，法規 P ≥ 0.1 MPa，Q ≥ 80 L/min)</p></div><div class='p-2.5 rounded-lg bg-slate-950/80 border border-slate-800'><span class='text-amber-300 font-bold'>2. 全揚程計算公式</span><p class='font-mono text-emerald-300 text-base my-1'>H = h1 + h2 + h3 + h4</p><p class='text-slate-400 text-xs'>h1: 落差 (m)<br>h2: 配管摩擦損失 (m)<br>h3: 消防水帶摩擦損失 (m，撒水系統為0)<br>h4: 放水法定壓力水頭 (消火栓: 17m或25m; 撒水: 10m)</p></div><div class='p-2.5 rounded-lg bg-slate-950/80 border border-slate-800'><span class='text-amber-300 font-bold'>3. 抽水機電動機輸出馬力</span><p class='font-mono text-emerald-300 text-base my-1'>P = (0.163 × Q × H / η) × (1 + α)</p><p class='text-slate-400 text-xs'>Q: 流量 (m³/min)<br>H: 全揚程 (m)<br>η: 泵浦效率 (通常取 0.55 ~ 0.65)<br>α: 傳動餘裕率 (電動機取 0.1~0.2)</p></div><div class='p-2.5 rounded-lg bg-slate-950/80 border border-slate-800'><span class='text-amber-300 font-bold'>4. Hazen-Williams 管路摩擦阻力</span><p class='font-mono text-emerald-300 text-base my-1'>ΔP = 6.05 × 10⁵ × Q¹.⁸⁵² / (C¹.⁸⁵² × d⁴.⁸⁷)</p><p class='text-slate-400 text-xs'>ΔP: 單位長度摩擦損失 (bar/m)<br>C: 粗糙係數 (配管新鋼管 C=120, 濕式配管常取 120)</p></div></div></div></div>"
+    },
+    {
+      "tabTitle": "探測器安裝高度與選用矩陣",
+      "htmlContent": "<div class='space-y-4 text-xs sm:text-sm text-slate-200 leading-relaxed'><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-amber-300 mb-2'>🔔 探測器安裝高度極限速查表 (設置標準 §120)</h4><div class='overflow-x-auto'><table class='w-full border-collapse text-left'><thead><tr class='border-b border-slate-700 text-slate-400'><th>場所高度</th><th>允許安裝探測器種類</th><th>禁止安裝探測器</th></tr></thead><tbody class='divide-y divide-slate-800 text-slate-300'><tr><td class='py-1.5 font-bold text-emerald-300'>未滿 4 公尺</td><td>所有認可之熱感度、煙感度、火焰式探測器均可裝設</td><td>無限制</td></tr><tr><td class='py-1.5 font-bold text-cyan-300'>4 公尺以上未滿 8 公尺</td><td>差動式(局限/分布)、補償式局限型、定溫式(特種/1種)、光電式局限/分離(1/2/3種)、離子化(1/2/3種)、火焰式</td><td>定溫式 2 種</td></tr><tr><td class='py-1.5 font-bold text-amber-300'>8 公尺以上未滿 15 公尺</td><td>差動式分布型、定溫式特種、光電式(局限1/2種、分離1/2種)、離子化(1/2種)、火焰式</td><td>差動式局限型、定溫式1/2種、偵煙3種</td></tr><tr><td class='py-1.5 font-bold text-rose-300'>15 公尺以上未滿 20 公尺</td><td>光電式局限型(1/2種)、光電式分離型(1/2種)、離子化(1/2種)、火焰式</td><td>所有熱感應探測器一律禁用！</td></tr><tr><td class='py-1.5 font-bold text-purple-300'>20 公尺以上</td><td>火焰式探測器、光電式分離型(經認可同等性能者)</td><td>所有熱感應及一般局限型偵煙探測器一律禁用</td></tr></tbody></table></div></div></div>"
+    },
+    {
+      "tabTitle": "氣體滅火藥劑與開口加算常數",
+      "htmlContent": "<div class='space-y-4 text-xs sm:text-sm text-slate-200 leading-relaxed'><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-cyan-300 mb-2'>🧯 全區放射二氧化碳滅火藥劑儲存量 (設置標準 §84)</h4><div class='overflow-x-auto'><table class='w-full border-collapse text-left'><thead><tr class='border-b border-slate-700 text-slate-400'><th>防護對象種類</th><th>防護區劃體積</th><th>每立方公尺藥劑量</th><th>未設自動關閉開口加算量</th></tr></thead><tbody class='divide-y divide-slate-800 text-slate-300'><tr><td class='py-1.5 font-bold' rowspan='3'>一般可燃物 (表面火災)</td><td>未滿 50 m³</td><td>1.0 kg/m³</td><td rowspan='3' class='text-amber-300 font-bold'>5.0 kg/m²</td></tr><tr><td>50 m³ 以上未滿 150 m³</td><td>0.9 kg/m³ (且不得小於 50 kg)</td></tr><tr><td>150 m³ 以上</td><td>0.8 kg/m³ (且不得小於 135 kg)</td></tr><tr><td class='py-1.5 font-bold'>第四類公共危險物品/電氣設備</td><td>視油槽、變壓器等特定對象</td><td>1.0 ~ 2.0 kg/m³</td><td class='text-amber-300 font-bold'>5.0 ~ 10.0 kg/m²</td></tr></tbody></table></div></div><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-emerald-300 mb-2'>🧯 乾粉滅火設備開口加算量對照</h4><p class='text-slate-300 text-xs mb-1'>第 1 種乾粉 (碳酸氫鈉)：開口加算量 <b>4.5 kg/m²</b><br>第 2 種 / 第 3 種乾粉 (ABC 磷酸銨鹽)：開口加算量 <b>2.7 kg/m²</b><br>第 4 種乾粉 (碳酸氫鉀+尿素)：開口加算量 <b>1.8 kg/m²</b></p></div></div>"
+    },
+    {
+      "tabTitle": "防排煙工程與耐熱耐燃電線",
+      "htmlContent": "<div class='space-y-4 text-xs sm:text-sm text-slate-200 leading-relaxed'><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-amber-300 mb-2'>💨 排煙設備排煙量與風速規定 (設置標準 §188~190)</h4><ul class='list-disc list-inside space-y-1.5 text-slate-300'><li><b>防煙區劃面積</b>：每區劃面積不得超過 <b>500 ㎡</b>，且垂壁高度不得小於 <b>50 cm</b>。</li><li><b>排煙風量要求</b>：每防煙區劃每分鐘排煙量不得小於該區劃面積乘上 <b>1 m³/min·㎡</b>（即 1 CMM/㎡），且總排煙量不得小於 <b>120 m³/min</b>。</li><li><b>排煙口風速</b>：排煙口通過風速不得大於 <b>10 m/s</b>（避免產生擾流破壞煙層安定）。</li><li><b>排煙風管風速</b>：吸入側風速不得大於 <b>15 m/s</b>，吐出側風速不得大於 <b>20 m/s</b>。</li><li><b>進風口風速</b>：自然進風口風速不得大於 <b>5 m/s</b>；機械進風口風速不得大於 <b>10 m/s</b>。</li></ul></div><div class='p-3 rounded-xl bg-slate-900/90 border border-slate-700'><h4 class='font-bold text-cyan-300 mb-2'>⚡ 消防電氣配線耐燃與耐熱等級要求 (設置標準 §232~235)</h4><p class='text-slate-300 text-xs mb-1'><b>耐燃配線 (840℃, 30分鐘)</b>：緊急電源主回路、加壓送水裝置主回路、排煙設備主機回路。<br><b>耐熱配線 (380℃, 15分鐘)</b>：探測器回路、標示燈回路、手動報警機回路、室內消防栓起動表示燈回路。</p></div></div>"
+    }
+  ]
+}
